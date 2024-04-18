@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
       <div style={{ backgroundImage: `url(${bgimg})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh' }} className='py-4  md:px-20 flex items-start '>
           
-          <div className='flex items-center justify-center relative gap-1 w-full border'>
+          <div className='flex items-center justify-center relative gap-1 w-full '>
               <div className='flex flex-col items-start border gap-2'>
                    <p className='text-start font-bold text-[24px] text-[#000] uppercase'>Kickstart Your </p>
                    <h2 className='font-black text-[30px] text-[#191970]'>IIT JEE/NEET Test Prep, </h2>
