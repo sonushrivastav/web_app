@@ -6,6 +6,9 @@ import icon2 from "../assets/Layer_2.svg";
 import icon3 from "../assets/Layer_3.svg";
 import icon4 from "../assets/Layer_4.svg";
 import icon5 from "../assets/Layer_5.svg";
+
+
+
 const LearningApproach = () => {
   const LearningArray = [
     {
@@ -30,17 +33,17 @@ const LearningApproach = () => {
     },
   ];
   return (
-    <div className="px-[160px] border w-full flex items-center justify-center">
+    <div className="px-[160px] w-full flex items-center justify-center sm:mt-[100px]">
       <div className="bg-[#262660]  py-4 px-20 rounded-3xl  items-center flex-col flex justify-center">
         <span className="font-bold text-[24px] text-white"> OUR</span>
         <span className="text-[#FDDF49] sm:text-[20px] text-[32px] uppercase font-bold">
           Learning Approach
         </span>
-        <div className="flex  w-full justify-center mt-5 gap-4">
+        <div className="flex sm:hidden w-full justify-center  mt-5 gap-4">
           {LearningArray?.map((data, index) => (
             <div
               key={index}
-              className="flex flex-col border w-[180px] items-center gap-2 justify-center relative "
+              className="flex flex-col  w-[180px] items-center gap-2 justify-center relative "
             >
               <div className="bg-[#FDDF49] rounded-full p-2">
                 <img
@@ -55,6 +58,81 @@ const LearningApproach = () => {
               )}
             </div>
           ))}
+        </div>
+        <div className="w-[400px] hidden  sm:block relative">
+          <div className="w-full items-center gap-3 mt-10 justify-center flex">
+          <div
+              className="flex flex-col  w-[180px] items-center gap-2 justify-center relative "
+            >
+              <div className="bg-[#FDDF49] rounded-full p-2">
+                <img
+                  src={icon1}
+                  className="text-[#242451] h-10 w-10 self-center"
+                  alt=""
+                />
+              </div>
+              <span className="text-[#fff] text-center">Classes are conducted during school hours on school premises</span>
+                <div className="absolute top-0 right-[-5px] h-full border border-dashed"></div>
+            </div>
+            <div
+              className="flex flex-col  w-[180px] items-center gap-2 justify-center relative "
+            >
+              <div className="bg-[#FDDF49] rounded-full p-2">
+                <img
+                  src={icon1}
+                  className="text-[#242451] h-10 w-10 self-center"
+                  alt=""
+                />
+              </div>
+              <span className="text-[#fff] text-center">Classes are conducted during school hours on school premises</span>
+            </div>
+          </div>
+          <div className=" w-[400px] mt-5 flex items-center justify-center border border-dashed"></div>
+
+          <div className="w-full items-center gap-3 mt-10 justify-center flex">
+          <div
+              className="flex flex-col  w-[180px] items-center gap-2 justify-center relative "
+            >
+              <div className="bg-[#FDDF49] rounded-full p-2">
+                <img
+                  src={icon1}
+                  className="text-[#242451] h-10 w-10 self-center"
+                  alt=""
+                />
+              </div>
+              <span className="text-[#fff] text-center">Classes are conducted during school hours on school premises</span>
+                <div className="absolute top-0 right-[-5px] h-full border border-dashed"></div>
+            </div>
+            <div
+              className="flex flex-col  w-[180px] items-center gap-2 justify-center relative "
+            >
+              <div className="bg-[#FDDF49] rounded-full p-2">
+                <img
+                  src={icon1}
+                  className="text-[#242451] h-10 w-10 self-center"
+                  alt=""
+                />
+              </div>
+              <span className="text-[#fff] text-center">Classes are conducted during school hours on school premises</span>
+            </div>
+          </div>
+          <div className=" w-[400px] mt-5 flex items-center justify-center border border-dashed"></div>
+
+          <div
+              className="flex flex-col  mt-5 ml-28 w-[180px] items-center gap-2 justify-center  "
+            >
+              <div className="bg-[#FDDF49] rounded-full p-2">
+                <img
+                  src={icon1}
+                  className="text-[#242451] h-10 w-10 self-center"
+                  alt=""
+                />
+              </div>
+              <span className="text-[#fff] text-center">Classes are conducted during school hours on school premises</span>
+            </div>
+           
+          
+
         </div>
 
         <div className="flex bg-[#FDDF49]  mt-4 py-2 px-3 rounded-3xl items-center justify-center gap-2">
