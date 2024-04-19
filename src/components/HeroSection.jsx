@@ -156,7 +156,7 @@ const HeroSection = () => {
               </select>
             </div>
 
-            <div className=" sm:block  bg-[#292967]  sm:items-center   gap-2 sm:flex sm:justify-center h-[55px]    w-[350px] ">
+            <div className=" sm:block  bg-[#292967]  sm:items-center  hidden gap-2 sm:flex sm:justify-center h-[55px]    w-[350px] ">
           <span className="  sm:order-1 sm:text-center text-white font-bold text-[16px]">
             Enquire Now
           </span>

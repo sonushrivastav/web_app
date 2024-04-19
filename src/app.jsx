@@ -9,7 +9,7 @@ export function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-full   flex flex-col gap-[200px] sm:gap-[1040px] overflow-x-hidden'>
+    <div className='w-full   flex flex-col gap-[150px] sm:gap-[1040px] overflow-x-hidden'>
       
       <Header/>
 
